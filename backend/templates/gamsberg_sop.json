@@ -1,0 +1,188 @@
+{
+  "id": "gamsberg_sop",
+  "name": "Gamsberg SOP",
+  "site": "Gamsberg",
+  "company": "BMM-Gamsberg (Vedanta Zinc International)",
+  "doc_type": "Standard Operating Procedure",
+  "docx": "gamsberg_sop.docx",
+  "context": "Gamsberg is an open-pit zinc mine and concentrator plant in the Northern Cape, South Africa, operated by Black Mountain Mining (BMM), part of Vedanta Zinc International (VZI). Work is governed by the Mine Health and Safety Act 29 of 1996 (MHSA) and its regulations. Documents follow ISO 45001:2018.",
+  "auto_sections": [
+    "Change History",
+    "Members of the Drafting/Revision Committee",
+    "Validity and Document Management",
+    "Review and Approval"
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "label": "Definitions and Abbreviations",
+      "heading": "Definitions and Abbreviations",
+      "help": "Explains the words and short forms used in this SOP.",
+      "icon": "book",
+      "default_on": true,
+      "fixed": true,
+      "instruction": "List the key terms and abbreviations used in this SOP with plain definitions. Keep definitions as per legal definitions from the applicable Acts where a legal definition exists. Return ONE table block with columns [\"Word / Phrase / Abbreviation\", \"Definition\"]. 6 to 14 rows. Always include PPE and any permit or role names used."
+    },
+    {
+      "id": "purpose",
+      "label": "Purpose",
+      "heading": "Purpose Scope and Users",
+      "help": "Why this SOP exists and what it aims to achieve.",
+      "icon": "target",
+      "default_on": true,
+      "instruction": "Briefly describe the purpose and objective of the SOP. What does this procedure aim to accomplish? Default intent: to provide a written procedure that shall be implemented to protect the health and safety of people affected by this activity. 1 to 2 short paragraphs."
+    },
+    {
+      "id": "scope",
+      "label": "Scope",
+      "heading": "Scope",
+      "help": "Where, to whom and to which work this SOP applies.",
+      "icon": "map",
+      "default_on": true,
+      "instruction": "Define the scope of this SOP. Identify the departments, areas, roles and equipment it applies to, and anything explicitly excluded. One short paragraph plus a bullets block of who and where it applies to."
+    },
+    {
+      "id": "process_map",
+      "label": "Process Map",
+      "heading": "Process Map",
+      "help": "A short, high-level picture of the main stages of the job.",
+      "icon": "flow",
+      "default_on": true,
+      "instruction": "Give a high-level view of the process as 5 to 8 stages from start to finish. Return ONE table block with columns [\"Stage\", \"What happens\", \"Who\"]. Stage names are 2 to 4 words."
+    },
+    {
+      "id": "legal",
+      "label": "Legal Compliance",
+      "heading": "Legal Compliance",
+      "help": "The Acts, regulations and standards this work must follow.",
+      "icon": "scale",
+      "default_on": true,
+      "verify": true,
+      "instruction": "List the applicable legislation, regulations, standards and internal VZI rules for this activity in South Africa (MHSA 29 of 1996 and its regulations, and relevant SANS standards where clearly applicable). Return a bullets block. Only name instruments you are confident exist; do not invent section or regulation numbers. End every item with ' [verify]'."
+    },
+    {
+      "id": "raci",
+      "label": "Responsibilities (RACI)",
+      "heading": "Responsibilities (RACI Matrix)",
+      "help": "Who is Responsible, Accountable, Consulted and Informed for each step.",
+      "icon": "people",
+      "default_on": true,
+      "instruction": "Detail the roles and responsibilities of personnel involved. Return a short paragraph, then ONE table block whose first column is \"Activity\" and the remaining columns are the roles involved (3 to 6 roles). Cells contain R, A, C, I or combinations like \"RA\", or empty. 5 to 10 activity rows. Then a bullets block with one line per role describing its main duties. Then a paragraph: \"R = Responsible, A = Accountable, C = Consult, I = Inform.\""
+    },
+    {
+      "id": "procedure",
+      "label": "Procedure (step by step)",
+      "heading": "Procedure (Operational sequence: preparation and planning, task execution, post operational tasks)",
+      "help": "The actual steps, from preparing the job to finishing and cleaning up.",
+      "icon": "list",
+      "default_on": true,
+      "instruction": "Provide a step-by-step description of the procedure, in three parts, each starting with a subheading block: \"Preparation and planning\", \"Task execution\", \"Post operational tasks\". Under each subheading give a steps block (imperative sentences, one action per step, 4 to 12 steps). Include permit to work, risk assessment, isolation and lockout, and pre-use inspection steps where relevant. Put critical hazards as warning blocks starting with \"DANGER\" or \"CAUTION\" directly after the step they relate to."
+    },
+    {
+      "id": "controls",
+      "label": "Safety Controls and Do's / Don'ts",
+      "heading": "Other Controls and Safety Precautions",
+      "help": "Extra controls, precautions, and the 'I will never / I will always' list.",
+      "icon": "shield",
+      "default_on": true,
+      "instruction": "Identify potential safety risks associated with this procedure and outline risk mitigation measures, including other controls identified by the risk assessment. Return a bullets block of controls, then a subheading block \"List of Do's and Don'ts\", then ONE table block with columns [\"I will never\", \"I will always\"] with 5 to 8 rows, written in first person."
+    },
+    {
+      "id": "tools_ppe",
+      "label": "Tools, Materials and PPE",
+      "heading": "Tools, Materials, and PPE required to safely execute the tasks",
+      "help": "The protective equipment, tools and materials needed.",
+      "icon": "helmet",
+      "default_on": true,
+      "hazard_grid": true,
+      "instruction": "Provide the required personal protective equipment (PPE), tools/equipment and materials. Return ONE table block with columns [\"PPE\", \"Equipment\", \"Materials\"]; each row has one item per column (leave a cell empty when a column has fewer items). The hazards/energies grid is added automatically, do not list hazards."
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency Response",
+      "heading": "Emergency response",
+      "help": "What to do if something goes wrong.",
+      "icon": "siren",
+      "default_on": true,
+      "instruction": "Provide a set of possible emergencies for this activity and clear instructions for each. Return ONE table block with columns [\"Emergency\", \"What to do\"] with 4 to 7 rows, then a bullets block with general emergency rules (raise the alarm, emergency number, assembly point, report to supervisor)."
+    },
+    {
+      "id": "communication",
+      "label": "Communication and Reporting",
+      "heading": "Communication and Reporting",
+      "help": "How the SOP is shared, filed, trained on and kept up to date.",
+      "icon": "chat",
+      "default_on": true,
+      "instruction": "Provide clear instructions on how the document will be filed, distributed and communicated so that employees are familiar with its content. Cover: administration of SOPs including filing, record keeping, archiving and distribution; revision of the document; accessibility; training of affected employees; reporting of incidents and deviations. Return a bullets block."
+    },
+    {
+      "id": "annexures",
+      "label": "Annexures / Appendix",
+      "heading": "Annexures / Appendix",
+      "help": "List of supporting documents attached to the SOP.",
+      "icon": "clip",
+      "default_on": true,
+      "fixed": true,
+      "instruction": "List the supplementary documents that should be annexed to this SOP, such as the Issue Based Risk Assessment, RACI Matrix, Planned Task Observation, OEM operating manual, Life Saving Rules, permits and checklists relevant to this activity. Return a bullets block."
+    }
+  ],
+  "suggested_extra_sections": [
+    "Permit Requirements",
+    "Isolation and Lockout",
+    "Training and Competency",
+    "Inspections and Pre-use Checks",
+    "Safety Systems and Devices",
+    "Records and Documents",
+    "Housekeeping",
+    "Environmental Considerations",
+    "Lifting Requirements",
+    "Working at Heights",
+    "Confined Space Entry",
+    "Hot Work Controls",
+    "Traffic Management"
+  ],
+  "hazards": [
+    "Biological", "Chemical", "Climatic/ Natural Events", "Dust / Inhalable particulates", "Electrical", "Ergonomics",
+    "Explosives", "External Threats", "Fire", "Gravitational (Objects)", "Gravitational (People)", "Land",
+    "Lighting", "Mechanical (Fixed)", "Mechanical (Mobile)", "Magnetic", "Noise", "Personal / Behaviour",
+    "Pressure / Explosions", "Other"
+  ],
+  "departments": {
+    "Plant": {
+      "dept_label": "GMB Plant",
+      "areas": ["Primary crusher", "Milling", "Flotation", "Thickeners and filtration", "Tailings", "Reagents", "Conveyors", "Plant workshop"],
+      "equipment": ["Jaw crusher", "Conveyor belt", "Ball mill", "Slurry pump", "Flotation cell", "Filter press", "Overhead crane", "Agitator", "Valves and pipework"]
+    },
+    "Mining": {
+      "dept_label": "GMB Mining",
+      "areas": ["Open pit", "Drilling", "Blasting", "Load and haul", "Dewatering", "Waste dumps", "Mining workshop"],
+      "equipment": ["Haul truck", "Excavator", "Drill rig", "Front-end loader", "Dozer", "Grader", "Water bowser", "Light vehicle"]
+    },
+    "Engineering": {
+      "dept_label": "GMB Engineering",
+      "areas": ["Electrical", "Mechanical", "Instrumentation", "Engineering workshop", "Substations", "Boilermaking"],
+      "equipment": ["Motor control centre (MCC)", "Transformer", "Welding machine", "Mobile crane", "Hydraulic torque wrench", "Angle grinder", "Chain block", "Scaffolding"]
+    },
+    "Safety and Health": {
+      "dept_label": "GMB SHE",
+      "areas": ["Site wide", "Emergency services", "Occupational hygiene", "Contractor management"],
+      "equipment": ["Fire extinguisher", "Gas detector", "Breathing apparatus", "First aid kit", "Stretcher"]
+    },
+    "Logistics": {
+      "dept_label": "GMB Logistics",
+      "areas": ["Stores", "Explosives magazine", "Concentrate loading", "Fuel bay"],
+      "equipment": ["Forklift", "Telehandler", "Truck", "Pallet jack", "Fuel bowser"]
+    }
+  },
+  "roles": ["Supervisor", "Foreman", "Artisan", "Artisan Assistant", "Operator", "Electrician", "Rigger", "Crane Operator", "Permit Issuer", "Fire Watch", "Safety Officer", "Engineer", "Contractor"],
+  "frequencies": ["Every shift", "Daily", "Weekly", "Monthly", "Annually", "As required"],
+  "defaults": {
+    "sbu": "Gamsberg",
+    "doc_type": "Standard Operating Procedure",
+    "status": "Draft",
+    "version": "0",
+    "security": "Internal (C3)",
+    "audit_standard": "ISO 45001:2018",
+    "review_cycle": "2 Years"
+  }
+}
